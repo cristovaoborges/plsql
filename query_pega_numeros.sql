@@ -32,6 +32,7 @@ SELECT
 	, PE.DSENDERECOCOMPLEMENTO                       AS DSENDERECOCOMPLEMENTO
 	, PE.NMBAIRRO									 AS NMBAIRRO
 	, UF.SGUF                                        AS SGUF
+	, PA.galho_tres                                  AS galho_tres
 	, PE.NMMUNICIPIO                                 AS NMMUNICIPIO   
 	, PA.NMPAIS                                      AS NMPAIS
 	, TO_CHAR(P.DTULTIMAALTERACAO,'DD/MM/RRRR')      AS DTULTIMA_ALTERACAO_PESSOA
